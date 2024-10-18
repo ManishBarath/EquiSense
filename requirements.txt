@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+transformers
+torch
+streamlit
+plotly
+pandas
+numpy
+requests
+beautifulsoup4
+feedparser
+wandb
