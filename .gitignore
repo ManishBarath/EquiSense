@@ -210,8 +210,10 @@ cache/
 .pytest_cache/
 
 # Project specific
-# Keep model files but ignore large model downloads
-# finbert_model/
+# Large model files (>100MB) - use Git LFS or download separately
+finbert_model/
+*.safetensors
+*.bin
 scraped_data/
 temp/
 output/
